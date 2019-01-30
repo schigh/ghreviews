@@ -1,0 +1,7 @@
+token: 'yourgithubtokengoeshere' #  https://github.com/settings/tokens
+username: 'yourusername'
+repos:
+  - name: 'my_repo'
+    owner: 'myusername'
+  - name: 'someone_elses_repo'
+    owner: 'theirusername'
