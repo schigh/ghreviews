@@ -1,5 +1,7 @@
 # ghreviews (WIP)
 
+Little CLI tool to see if you have PR reviews out there on the Github
+
 ## Current usage:
 
 There will be `init` and `configure` functionality in the future, but for now, do the following:
