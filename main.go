@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"os/exec"
 	"os/user"
 	"path"
 	"strings"
@@ -175,8 +174,8 @@ func notify(rr reviewRequest) {
 		}
 	}
 
-	command := exec.Command("osascript", "-e", `display notification "`+sb.String()+`" with title "Your review is requested for the following PRs:"`)
-	_ = command.Run()
+	printfPlain("Your review is requested for the following PRs")
+	printfPlain(sb.String())
 }
 
 func main() {
