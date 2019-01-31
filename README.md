@@ -31,10 +31,10 @@ repos:
 6. Run it
 
 ```    
-    > ghreviews
-    > Your review is requested for the following PRs
-      someone_elses_repo:
-          - https://github.com/theirusername/someone_elses_repo/pull/42
+> ghreviews
+> Your review is requested for the following PRs
+  someone_elses_repo:
+      - https://github.com/theirusername/someone_elses_repo/pull/42
 ```
 
 7. Profit, probably
