@@ -24,7 +24,9 @@ repos:
 
 `https://github.com/<owner>/<name>`
 
-4. build the app: `go build -o /path/to/go/bin/ghreviews .`
+4. Get the dependencies: `go mod download`
 
-5. Profit, probably
+5. build the app: `go build -o /path/to/go/bin/ghreviews .`
+
+6. Profit, probably
 
